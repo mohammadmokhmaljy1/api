@@ -52,3 +52,5 @@ Deny from all
   Header always set X-Content-Type-Options "nosniff"
   Header always set X-XSS-Protection "1; mode=block"
 </IfModule>
+
+Header set Access-Control-Allow-Origin "http://localhost:5173"
