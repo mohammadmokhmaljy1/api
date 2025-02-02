@@ -6,13 +6,11 @@ require_once 'core/Request.php';
 
 class CategoryController {
     
-    // للحصول على جميع الفئات
     public function index() {
         $categories = Category::all();
         Response::send(200, $categories);
     }
     
-    // لإنشاء فئة جديدة
     public function create() {
         $data = Request::getJsonData();
         $category = new Category();
@@ -22,7 +20,6 @@ class CategoryController {
         Response::send(201, $category);
     }
     
-    // للحصول على فئة حسب المعرف
     public function show($id) {
         $category = Category::find($id);
         if ($category) {
@@ -32,7 +29,6 @@ class CategoryController {
         }
     }
     
-    // لتحديث بيانات فئة
     public function update($id) {
         $data = Request::getJsonData();
         $category = Category::find($id);
@@ -46,7 +42,6 @@ class CategoryController {
         }
     }
     
-    // لحذف فئة
     public function delete($id) {
         $category = Category::find($id);
         if ($category) {
