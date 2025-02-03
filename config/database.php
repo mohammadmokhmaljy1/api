@@ -1,7 +1,7 @@
 <?php
 return [
     'host' => 'localhost',
-    'db' => 'ooggsports1',
-    'user' => 'root',
-    'password' => '',
+    'db' => 'u696050269_ooggsports1',
+    'user' => 'u696050269_aboda',
+    'password' => 'X9u=OxRtzc#',
 ];
