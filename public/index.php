@@ -6,7 +6,7 @@ require_once '../core/Router.php';
 $router = new Router();
 
 // إضافة المسارات (Routes)
-$router->add('/', 'HomeController@index');
+// $router->add('/', 'HomeController@index');
 $router->add('/admin', 'AdminController@index');
 $router->add('/admin/create', 'AdminController@create');
 $router->add('/admin/show/(\d+)', 'AdminController@show');
