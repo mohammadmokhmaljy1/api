@@ -1,15 +1,15 @@
 <?php
 
-require_once '../core/Router.php';
-require_once '../controllers/CustomerController.php';
-require_once '../controllers/CartController.php';
-require_once '../controllers/BillController.php';
-require_once '../controllers/OrderingController.php';
-require_once '../controllers/ProductController.php';
-require_once '../controllers/ProductImageController.php';
-require_once '../controllers/MainProductController.php';
-require_once '../controllers/AdminController.php';
-require_once '../controllers/CategoryController.php';
+require_once 'core/Router.php';
+require_once 'controllers/CustomerController.php';
+require_once 'controllers/CartController.php';
+require_once 'controllers/BillController.php';
+require_once 'controllers/OrderingController.php';
+require_once 'controllers/ProductController.php';
+require_once 'controllers/ProductImageController.php';
+require_once 'controllers/MainProductController.php';
+require_once 'controllers/AdminController.php';
+require_once 'controllers/CategoryController.php';
 
 $router = new Router();
 
