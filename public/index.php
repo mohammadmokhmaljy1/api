@@ -55,5 +55,4 @@ $router->add('/product-image/show/(\d+)', 'ProductImageController@show');
 $router->add('/product-image/update/(\d+)', 'ProductImageController@update');
 $router->add('/product-image/delete/(\d+)', 'ProductImageController@delete');
 
-// توزيع الطلبات بناءً على المسارات
 $router->dispatch($_SERVER['REQUEST_URI']);
